@@ -1,0 +1,4 @@
+.venv
+.env
+google.json
+functions/gsheet.json

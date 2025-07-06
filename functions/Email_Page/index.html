@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIRA Welcome Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        color: #444;
+        /* background-image: url("https://github.com/Upendra2003/Aira-Images/blob/main/images/bg.png?raw=true"); */
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .logo {
+        margin-bottom: 5px;
+      }
+
+      .logo img {
+        height: 50px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin: 15px 0;
+        font-weight: 600;
+        color: #444;
+      }
+
+      .name {
+        font-family: "Pacifico", cursive;
+        color: #ff3900;
+      }
+
+      .avatar-container {
+        margin: 20px auto;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 10px;
+        background-color: #f2e9e4;
+        border: #444 2px solid;
+      }
+
+      .avatar-container img {
+        width: 100%;
+        height: auto;
+      }
+
+      .welcome-text {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 25px auto;
+        max-width: 700px;
+      }
+
+      .features-box {
+        background-color: #e6ccc5;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 25px auto;
+        max-width: 500px;
+        text-align: left;
+        border: #444 2px solid;
+      }
+
+      .features-title {
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #555;
+      }
+
+      .feature {
+        margin: 12px 0;
+      }
+
+      .inspiration {
+        font-size: 1.1rem;
+        margin: 20px 0;
+      }
+
+      .signature {
+        margin: 25px 0 30px;
+        font-weight: 500;
+      }
+
+      .aira-image {
+        width: 200px;
+        height: auto;
+        margin-left: 20px;
+        border: #444 2px solid;
+        border-radius: 16px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .chat-button {
+        background-color: #e6ccc5;
+        color: #444;
+        font-size: 1.1rem;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 500;
+        margin: 20px auto;
+        display: block;
+        width: 300px;
+        border: #444 2px solid;
+      }
+
+      .chat-button:hover {
+        background-color: #ff3900;
+        color: white;
+        transition: background-color 0.3s ease;
+      }
+
+      .heart-icon {
+        color: #f8a5a5;
+      }
+    </style>
+  </head>
+  <body>
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      style="
+        margin: 0;
+        padding: 0;
+        background-image: url('https://github.com/Upendra2003/Aira-Images/blob/main/images/improved_bg.png?raw=true');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        color: #545352;
+        background-color: #fbf7f1;
+      "
+    >
+      <tr>
+        <td align="center">
+          <table
+            width="600"
+            cellspacing="0"
+            border="0"
+            style="border-radius: 12px"
+          >
+            <tr>
+              <td>
+                <div class="container">
+                  <div class="logo">
+                    <img
+                      src="https://github.com/Upendra2003/Aira-Images/blob/main/images/logo.png?raw=true"
+                      alt=""
+                    />
+                  </div>
+
+                  <h1>
+                    Hello <span class="name">{{username}}</span>, Aira Welcomes
+                    you
+                  </h1>
+
+                  <div class="avatar-container">
+                    <img
+                      src="https://github.com/Upendra2003/Aira-Images/blob/main/images/Meditating.png?raw=true"
+                      alt="AIRA meditation avatar"
+                    />
+                  </div>
+
+                  <p class="welcome-text">
+                    I'm AIRA, your friendly wellness companion, and I'm so happy
+                    you've joined us. Whether you're here to reflect, grow, or
+                    just take a mindful pause in your day, I'm here to support
+                    you every step of the way. 🌱
+                  </p>
+
+                  <div class="features-section">
+                    <h2 class="features-title">
+                      Here's what you can do with me:
+                    </h2>
+                    <div class="features-box">
+                      <div class="feature">
+                        📝 Track your thoughts and mood daily
+                      </div>
+                      <div class="feature">
+                        🎯 Set and achieve goals mindfully
+                      </div>
+                      <div class="feature">
+                        📊 See how you're growing over time
+                      </div>
+                      <div class="feature">
+                        💬 Have safe, meaningful conversations—anytime you need
+                      </div>
+                    </div>
+                  </div>
+
+                  <p class="inspiration">
+                    Take a deep breath... You're exactly where you need to be.
+                  </p>
+
+                  <div class="flex-container">
+                    <div>
+                      <p class="signature">
+                        With warmth,<br />
+                        AIRA<br />
+                        Your Personal Wellness Assistant
+                        <span class="heart-icon">💕</span>
+                      </p>
+                    </div>
+                    <img
+                      class="aira-image"
+                      src="https://github.com/Upendra2003/Aira-Images/blob/main/images/Happy%20Full%20Image.png?raw=true"
+                      alt="AIRA standing avatar"
+                    />
+                  </div>
+
+                  <button class="chat-button">Chat with me</button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
